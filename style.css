@@ -25,9 +25,9 @@ body {
 .player {
   max-width: 70vw;
   min-width: 800px;
-  border: 5px solid black;
+  border: 5px solid rgb(150, 150, 150);
+  background-color: rgb(150, 150, 150);
   border-radius: 10px;
-  background: black;
   position: relative;
   cursor: pointer;
 }

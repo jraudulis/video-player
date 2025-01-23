@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="player">
-        <video src="https://assets.mixkit.co/videos/9681/9681-720.mp4" class="video" playsinline></video>
+        <video src="https://pixabay.com/videos/download/video-41758_source.mp4?attachment" class="video" playsinline></video>
         <!-- Toggle controls container -->
          <div class="show-controls">
             <!-- Controls container -->
@@ -28,7 +28,7 @@
                          <!-- volume  -->
                             <div class="volume">
                                 <div class="volume-icon">
-                                    <i class="fas fa-regular fa-volume-up"></i>
+                                    <i class="fas fa-regular fa-volume-up" id="volume-icon"></i>
                                 </div>
                                     <div class="volume-range" title="change-volume">
                                       <div class="volume-bar"></div>
@@ -40,10 +40,10 @@
                         <div class="speed" title="playback rate">
                             <select name="playbackRate" class="player-speed">
                                 <option value="0.5">0.5 x</option>
-                                <option value="0.5">0.75 x</option>
-                                <option value="0.5" selected>1 x</option>
-                                <option value="0.5">1.5 x</option>
-                                <option value="0.5">2 x</option>
+                                <option value="0.75">0.75 x</option>
+                                <option value="0.1" selected>1 x</option>
+                                <option value="1.5">1.5 x</option>
+                                <option value="2.0">2 x</option>
                             </select>
                         </div>
                         <div class="time">
@@ -51,7 +51,7 @@
                             <span class="time-duration"></span>
                         </div>
                         <div class="fullscreen">
-                            <i class="fas fa-solid fa-expand"></i>
+                            <i class="fas fa-solid fa-expand" id="fullscreen-btn"></i>
                         </div>
                     </div>
                  </div>
